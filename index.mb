@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="Style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="Imagens/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="Imagens/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="Imagens/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+    <title>Portfólio</title>
+
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="hamburguer">
+            <div class="line" id="line1"></div>
+            <div class="line" id="line2"></div>
+            <div class="line" id="line3"></div>
+            <span>Fechar</span>
+        </div>
+
+
+    <header>
+        <div class="img-wrapper">
+            <img src="Imagens/Bg2.jpg" alt="">
+        </div>
+        <div class="banner">
+        <h1>Excel Avançado & VBA | 
+            Data Analytics | SQL | DashBoards</h1>
+        <p>Rafael Koga</p>
+        <button>Saiba Mais</button>
+        </div>
+    </header>  
+    
+    <aside class="sidebar">
+        <nav>
+            <ul class="menu">
+                <li class="menu-item"><a href="#" class="menu-link">Home</a></li>
+                <li class="menu-item"><a href="#" class="menu-link">Conhecimento</a></li>
+                <li class="menu-item"><a href="#" class="menu-link">Projetos</a></li>
+                <li class="menu-item"><a href="#" class="menu-link">Contato</a></li>
+                <li class="menu-item"><a href="#" class="menu-link">Orçamento</a></li>
+            </ul>
+        </nav>
+        <div class="social-media">
+            <a href=""><i class="fab fa-facebook"></i></a>
+            <a href=""><i class="fab fa-linkedin"></i></a>
+            <a href=""><i class="fab fa-github-alt"></i></a>
+        </div>
+    </aside>
+    
+    <section class="sessao-conhecimentos">
+        <div class="sessao-header">
+            <h1>Conhecimentos</h1>
+        </div>
+        <div class="conhecimentos">
+            <div class="conhecimento">
+                <div class="conhecimento-header">
+                    <i class="fas fa-hand-holding-usd"></i>
+                    <h3>Financeiro</h3>
+                </div>
+                <div class="conhecimento-text">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil molestiae nam dolor? Doloribus nulla quas odio id illum? Iusto nulla quaerat porro perspiciatis eveniet esse facilis error fuga reiciendis neque.</p>
+                </div>
+            </div>
+            <div class="conhecimento">
+                <div class="conhecimento-header">
+                    <i class="fas fa-chart-bar"></i>
+                    <h3>Dashboards</h3>
+                </div>
+                <div class="conhecimento-text">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente optio est sunt voluptas placeat aliquid cumque, repellat adipisci vel a, pariatur maxime facilis eligendi tenetur debitis ipsum quis commodi! Dolor?</p>
+                </div>
+            </div>
+            <div class="conhecimento">
+                <div class="conhecimento-header">
+                    <i class="far fa-file-excel"></i>
+                    <h3>Excel</h3>
+                </div>
+                <div class="conhecimento-text">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat reprehenderit, magnam voluptatum commodi error sit, aliquid ducimus quisquam sed eius dignissimos quasi qui? Nihil magni maiores illo recusandae quod aspernatur.</p>
+                </div>
+            </div>
+            <div class="conhecimento">
+                <div class="conhecimento-header">
+                    <i class="fas fa-database"></i>
+                    <h3>SQL Server</h3>
+                </div>
+                <div class="conhecimento-text">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid tenetur dolorem soluta. Nobis vel iusto assumenda repudiandae obcaecati, quaerat impedit ut, doloremque, a aliquam porro velit ab totam ipsam itaque?</p>
+                </div>
+            </div>
+            <div class="conhecimento">
+                <div class="conhecimento-header">
+                    <i class="fas fa-code"></i>
+                    <h3>VBA</h3>
+                </div>
+                <div class="conhecimento-text">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim necessitatibus dolorem sapiente vitae. Tempora suscipit quis aliquam non asperiores accusamus quasi deserunt voluptatum, assumenda excepturi provident laborum corporis eligendi veritatis?</p>
+                </div>
+            </div>
+            <div class="conhecimento">
+                <div class="conhecimento-header">
+                    <i class="fab fa-github"></i>
+                    <h3>Git Hub</h3>
+                </div>
+                <div class="conhecimento-text">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore dolore alias adipisci, cumque ducimus ab. Excepturi, hic. Error quisquam, placeat officiis totam qui unde, dignissimos laudantium repellendus eum doloribus vero.</p>
+                </div>
+            </div>
+                <div class="conhecimentos-img-wrapper">
+                <img src="imagens/conhecimentos.png" alt="imagem_conhecimento">
+            </div>
+        </div>
+    </section>
+
+    </div>
+
+
+    </div>
+    
+</body>
+
+<script src="script.js"></script>
+
+</html>
